@@ -1,0 +1,36 @@
+{
+  "name": "metascraper-server",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/main.ts",
+    "build": "tsc --project .",
+    "dep:update": "npm-check-updates",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "metascraper": "^5.34.4",
+    "metascraper-date": "^5.34.4",
+    "metascraper-description": "^5.34.4",
+    "metascraper-image": "^5.34.4",
+    "metascraper-logo": "^5.34.4",
+    "metascraper-publisher": "^5.34.4",
+    "metascraper-title": "^5.34.4",
+    "node-fetch": "^3.3.1",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/http-errors": "^2.0.1",
+    "@types/node-fetch": "^2.6.3",
+    "nodemon": "^2.0.22",
+    "npm-check-updates": "16.10.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

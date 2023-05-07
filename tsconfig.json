@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES2022",
+    "strict": true,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
+    "lib": [],
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "allowJs": true,
+    "maxNodeModuleJsDepth": 10
+  }
+}
