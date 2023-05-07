@@ -1,5 +1,4 @@
-import fetch, { HeadersInit } from "node-fetch";
-import metascraper from "metascraper";
+import metascraper, { Rule } from "metascraper";
 
 export const defaultRuleNames = [
   "date",
@@ -16,7 +15,9 @@ export async function handler(
   headers: HeadersInit
 ) {
   const rules = await Promise.all(
-    ruleNames.map((ruleName) => import(`metascraper-${ruleName}`))
+    ruleNames.map((ruleName) =>
+      import(`metascraper-${ruleName}`).then((res) => res.default() as Rule)
+    )
   );
   const metascraperInstance = metascraper(rules);
 

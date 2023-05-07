@@ -24,7 +24,7 @@ ENV NODE_ENV production
 COPY package.json yarn.lock /app/
 RUN yarn install
 
-COPY --from=builder /app/build/src /app/src/
+COPY --from=builder /app/build /app/build/
 
 ENTRYPOINT ["tini", "--", "node"]
-CMD ["src/main.js"]
+CMD ["build/main.js"]
