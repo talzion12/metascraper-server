@@ -1,3 +1,5 @@
+## [0.1.4](https://github.com/talzion12/metascraper-server/compare/v0.1.3...v0.1.4) (2023-05-07)
+
 ## [0.1.3](https://github.com/talzion12/metascraper-server/compare/v0.1.2...v0.1.3) (2023-05-07)
 
 
