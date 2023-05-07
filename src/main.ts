@@ -63,7 +63,7 @@ function main() {
   );
 
   const hostname = process.env.LISTEN_HOST ?? "0.0.0.0";
-  const port = parseInt(process.env.LISTEN_PORT ?? "9091");
+  const port = parseInt(process.env.LISTEN_PORT ?? "3000");
 
   app.listen(port, hostname, () => {
     console.info(`🚀 Listening on port http://${hostname}:${port}`);
