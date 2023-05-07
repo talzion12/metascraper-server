@@ -1,13 +1,19 @@
 {
   "name": "metascraper-server",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "src/main.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon src/main.ts",
     "build": "tsc --project .",
+    "changelog": "conventional-changelog --infile CHANGELOG.md --same-file -p conventionalcommits",
     "dep:update": "npm-check-updates",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "release:prepare": "./scripts/prepare-release",
+    "release": "./scripts/release",
+    "start": "nodemon src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "version:bump:recommended": "npm run version:bump $(npm run --silent version:recommended-bump)",
+    "version:bump": "npm version --no-git-tag-version --no-commit-hooks",
+    "version:recommended-bump": "conventional-recommended-bump -p conventionalcommits"
   },
   "keywords": [],
   "license": "MIT",
@@ -30,6 +36,10 @@
     "nodemon": "^2.0.22",
     "npm-check-updates": "16.10.10",
     "ts-node": "^10.9.1",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "conventional-changelog-cli": "^2.2.2",
+    "conventional-recommended-bump": "^6.1.0"
   }
 }
