@@ -2818,16 +2818,16 @@ metascraper-description@^5.34.4:
   dependencies:
     "@metascraper/helpers" "^5.34.4"
 
-metascraper-image@^5.34.4:
-  version "5.34.4"
-  resolved "https://registry.npmjs.org/metascraper-image/-/metascraper-image-5.34.4.tgz"
-  integrity sha512-3uO4pfAHNE0+0832oExSQFmBSxYhzQHsolzYjRqHJ9wisAZKHszdCLNheQPN6ORKWqPP5rKHYEaDBQgWZ+L8Zw==
-  dependencies:
-    "@metascraper/helpers" "^5.34.4"
-
-metascraper-logo@^5.34.7:
+metascraper-image@^5.34.7:
   version "5.34.7"
-  resolved "https://registry.yarnpkg.com/metascraper-logo/-/metascraper-logo-5.34.7.tgz#5eaeb86ccf5cd75498c19c71d8186057c6cc3911"
+  resolved "https://registry.yarnpkg.com/metascraper-image/-/metascraper-image-5.34.7.tgz#1c0515cf37a16bf69bb4da2b2974d96700e81966"
+  integrity sha512-IlX7y/ziSUPS+5ZvS9Ui7i2DxsX+hDgAshpCPGS+BMMmqT8kibo3ihVLn5BVGsg1grCiwJ1VWxSxnp25xxlXhQ==
+  dependencies:
+    "@metascraper/helpers" "^5.34.7"
+
+metascraper-logo@^5.34.4:
+  version "5.34.7"
+  resolved "https://registry.npmjs.org/metascraper-logo/-/metascraper-logo-5.34.7.tgz"
   integrity sha512-Lz0gKNZN6SnkPfFXMWS6j3jvMiMyKLatWKEVxYPS5TgXgRXOhPCnhTDKRMVo1x5xmOkN3EQLhx2Fr3vAF/je2g==
   dependencies:
     "@metascraper/helpers" "^5.34.7"
@@ -4457,7 +4457,7 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 
-"typescript@^4.6.4 || ^5.0.0", typescript@^5.1.6:
+"typescript@^4.6.4 || ^5.0.0", typescript@^5.0.4:
   version "5.1.6"
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.1.6.tgz"
   integrity sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==
