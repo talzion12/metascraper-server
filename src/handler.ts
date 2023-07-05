@@ -1,4 +1,4 @@
-import metascraper, { Rule } from "metascraper";
+import metascraper, { RuleSet } from "metascraper";
 
 export const defaultRuleNames = [
   "date",
@@ -14,9 +14,9 @@ export async function handler(
   ruleNames: string[],
   headers: HeadersInit
 ) {
-  const rules = await Promise.all(
+  const rules: RuleSet[] = await Promise.all(
     ruleNames.map((ruleName) =>
-      import(`metascraper-${ruleName}`).then((res) => res.default() as Rule)
+      import(`metascraper-${ruleName}`).then((res) => res.default() as RuleSet)
     )
   );
   const metascraperInstance = metascraper(rules);
