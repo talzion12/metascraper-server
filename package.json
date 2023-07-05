@@ -39,7 +39,7 @@
     "typescript": "^5.0.4",
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
-    "conventional-changelog-cli": "^2.2.2",
+    "conventional-changelog-cli": "^3.0.0",
     "conventional-recommended-bump": "^7.0.0"
   }
 }
