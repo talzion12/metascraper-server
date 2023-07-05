@@ -6,7 +6,7 @@
     utils.lib.eachDefaultSystem (system:
       let 
         pkgs = nixpkgs.legacyPackages.${system};
-        nodejs = pkgs.nodejs-18_x;
+        nodejs = pkgs.nodejs_20;
         yarn = pkgs.yarn.override {
           nodejs = nodejs;
         };
