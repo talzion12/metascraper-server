@@ -37,8 +37,8 @@
     "npm-check-updates": "16.10.13",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4",
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
     "conventional-changelog-cli": "^3.0.0",
     "conventional-recommended-bump": "^7.0.0"
   }
