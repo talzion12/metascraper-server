@@ -2840,12 +2840,12 @@ metascraper-publisher@^5.34.4:
   dependencies:
     "@metascraper/helpers" "^5.34.4"
 
-metascraper-title@^5.34.4:
-  version "5.34.4"
-  resolved "https://registry.npmjs.org/metascraper-title/-/metascraper-title-5.34.4.tgz"
-  integrity sha512-ToqDyRoXyv/qWWRGwLipaHM5rR/vwzfozy+HhqfATm2vJv0GEjqQsFf7TZGafE8vXG+m/+9LGmw0bzRoHYbVuA==
+metascraper-title@^5.34.7:
+  version "5.34.7"
+  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.34.7.tgz#d53afa05eb4d5f2d7b8ec772ddfc335733f86a21"
+  integrity sha512-k+eDC12Y1m5n/RE3GhqmWRtNSKH9rDXvAzJ6k2T9+9PyaGeaSN9dWLnc3rK9TYmdFP02kTKhCAV8WerHw/7IqA==
   dependencies:
-    "@metascraper/helpers" "^5.34.4"
+    "@metascraper/helpers" "^5.34.7"
 
 metascraper@^5.34.4:
   version "5.34.4"
