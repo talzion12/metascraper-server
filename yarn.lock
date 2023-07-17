@@ -2697,19 +2697,19 @@ merge2@^1.3.0, merge2@^1.4.1:
   resolved "https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz"
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
 
-metascraper-date@^5.34.9:
+metascraper-date@^5.34.4:
   version "5.34.9"
-  resolved "https://registry.yarnpkg.com/metascraper-date/-/metascraper-date-5.34.9.tgz#1696732b118a5bdc0f8201a80a748ebe2cf0a564"
+  resolved "https://registry.npmjs.org/metascraper-date/-/metascraper-date-5.34.9.tgz"
   integrity sha512-M6ttjpkjbg83V+2vWzuf6oZq/THGXKVFY8mRbcWy1BFRBg0Q217FuBpeX8Oh4MjGy0Y9cevPLPwRhSFmTeNt2A==
   dependencies:
     "@metascraper/helpers" "^5.34.9"
 
-metascraper-description@^5.34.4:
-  version "5.34.7"
-  resolved "https://registry.npmjs.org/metascraper-description/-/metascraper-description-5.34.7.tgz"
-  integrity sha512-paV0oLjHJomfP05USfQ18Aa0J2z2FlSmnrf04CsZMVFyoI76r4gcbUPoa6JkTdXMmnVxeem22v18jurHweQ9kg==
+metascraper-description@^5.34.9:
+  version "5.34.9"
+  resolved "https://registry.yarnpkg.com/metascraper-description/-/metascraper-description-5.34.9.tgz#96920bc5f7da529c37871cf15d2e5b8fc5e9d983"
+  integrity sha512-zM412s0zPgQRrfsJAXvFgIfCe4rzO6vGhtBkOYIcJnLJ06c4G7zpe2pAnQZePx3PKhZL3a2YbEqgAp/kdQb4lA==
   dependencies:
-    "@metascraper/helpers" "^5.34.7"
+    "@metascraper/helpers" "^5.34.9"
 
 metascraper-image@^5.34.4:
   version "5.34.7"
