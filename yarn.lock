@@ -231,7 +231,7 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@metascraper/helpers@^5.36.0", "@metascraper/helpers@^5.37.1":
+"@metascraper/helpers@^5.37.1":
   version "5.37.1"
   resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.37.1.tgz#3defcae31600e62abfcd4a1d60a7cbe83dc95877"
   integrity sha512-gVq+5aqiAucL/TXwn94uuPlq4/VhjduReltlUVRkb90+Tp/Xb39X06QuHTcN0Ahp/5STjUdDBbp1VOCX+16oZg==
@@ -2700,19 +2700,19 @@ metascraper-logo@^5.34.4:
     "@metascraper/helpers" "^5.37.1"
     lodash "~4.17.21"
 
-metascraper-publisher@^5.37.1:
+metascraper-publisher@^5.34.4:
   version "5.37.1"
-  resolved "https://registry.yarnpkg.com/metascraper-publisher/-/metascraper-publisher-5.37.1.tgz#af3775e48763836c6b9e5d8095beacdeaeac423d"
+  resolved "https://registry.npmjs.org/metascraper-publisher/-/metascraper-publisher-5.37.1.tgz"
   integrity sha512-vUgVCCygC/ue+1RJoMI8NbzpHQ05DJ1Bsl1J8QCKsTs2XEG11sYPYXKmpljq34vZn/MNOO36TvklfsjAngf5jw==
   dependencies:
     "@metascraper/helpers" "^5.37.1"
 
-metascraper-title@^5.34.4:
-  version "5.36.0"
-  resolved "https://registry.npmjs.org/metascraper-title/-/metascraper-title-5.36.0.tgz"
-  integrity sha512-cX8WVFWwQ3tpiOkcsl3aIGVk3dDNqumV7t657vCFSW+fQ8NhBntxskQlYR2+dy9rtWPQEf8kgUlOfse1cVRgZw==
+metascraper-title@^5.37.1:
+  version "5.37.1"
+  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.37.1.tgz#a6a5237a8ae617b78f7892e0b66be3c04a06608d"
+  integrity sha512-Ae9l9Sp6Ff1HUzta7CbxGY41qSuxk5oYimp5JMXMN7xmEg3R1Wk+2OgO9kMhzHhhIHSJRSv8WITPvkSvLWysuA==
   dependencies:
-    "@metascraper/helpers" "^5.36.0"
+    "@metascraper/helpers" "^5.37.1"
 
 metascraper@^5.34.4:
   version "5.37.1"
@@ -4532,9 +4532,9 @@ write-file-atomic@^3.0.3:
     typedarray-to-buffer "^3.1.5"
 
 ws@^8.13.0:
-  version "8.14.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.14.1.tgz#4b9586b4f70f9e6534c7bb1d3dc0baa8b8cf01e0"
-  integrity sha512-4OOseMUq8AzRBI/7SLMUwO+FEDnguetSk7KMb1sHwvF2w2Wv5Hoj0nlifx8vtGsftE/jWHojPy8sMMzYLJ2G/A==
+  version "8.14.2"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.14.2.tgz#6c249a806eb2db7a20d26d51e7709eab7b2e6c7f"
+  integrity sha512-wEBG1ftX4jcglPxgFCMJmZ2PLtSbJ2Peg6TmpJFTbe9GZYOQCDPdMYu/Tm0/bGZkw8paZnJY45J4K2PZrLYq8g==
 
 xdg-basedir@^5.0.1, xdg-basedir@^5.1.0:
   version "5.1.0"
