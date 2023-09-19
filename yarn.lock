@@ -2678,19 +2678,19 @@ metascraper-date@^5.34.4:
   dependencies:
     "@metascraper/helpers" "^5.37.1"
 
-metascraper-description@^5.37.1:
+metascraper-description@^5.34.4:
   version "5.37.1"
-  resolved "https://registry.yarnpkg.com/metascraper-description/-/metascraper-description-5.37.1.tgz#91c5bc5dbb609e5ff9499a185035d5daf62b066d"
+  resolved "https://registry.npmjs.org/metascraper-description/-/metascraper-description-5.37.1.tgz"
   integrity sha512-kaDOl9EW10ArDOvMHtue4mvpU+/GHqA2Hv9nPVVPxEa+yItubzMfoIyV34Bg4XOx/yITeV2sLGqZCE9XenBN4A==
   dependencies:
     "@metascraper/helpers" "^5.37.1"
 
-metascraper-image@^5.34.4:
-  version "5.36.0"
-  resolved "https://registry.npmjs.org/metascraper-image/-/metascraper-image-5.36.0.tgz"
-  integrity sha512-67krFEFwl1Jtx42+ADCfoY91NWMvnFBysRLAz7XtxmyXg18DC1sRaJh485gNQHT9mKshPH7yk+9CPjTmgiOhxQ==
+metascraper-image@^5.37.1:
+  version "5.37.1"
+  resolved "https://registry.yarnpkg.com/metascraper-image/-/metascraper-image-5.37.1.tgz#674b0bcd8c8c15c365a91ac0f1f23dcd218ccbeb"
+  integrity sha512-1G2/mTWfydQ04o4pVRoq+751NSIE97YHc4WF8rGBQ7RVyLznNWXykqNS9FU13BJq+RavWBPDZU8sITFSLS79+g==
   dependencies:
-    "@metascraper/helpers" "^5.36.0"
+    "@metascraper/helpers" "^5.37.1"
 
 metascraper-logo@^5.34.4:
   version "5.37.1"
