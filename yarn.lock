@@ -236,7 +236,7 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@metascraper/helpers@^5.37.1", "@metascraper/helpers@^5.38.0":
+"@metascraper/helpers@^5.38.0":
   version "5.38.0"
   resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.38.0.tgz#d27f4aced187abace6f330b7b106cccb4d06419f"
   integrity sha512-z7vhAfFUpFagakdDE8ZwJmLb7AevYo/qNx0YMsoBS1C1Nf9hmfq5jCtHQHc34EZF2gZbFKyihVQe5V4hC4G3AA==
@@ -2774,19 +2774,19 @@ metascraper-logo@^5.34.4:
     "@metascraper/helpers" "^5.38.0"
     lodash "~4.17.21"
 
-metascraper-publisher@^5.38.0:
+metascraper-publisher@^5.34.4:
   version "5.38.0"
-  resolved "https://registry.yarnpkg.com/metascraper-publisher/-/metascraper-publisher-5.38.0.tgz#3f379de2de1d1d23ddeef1fc5259567b0a9d1afe"
+  resolved "https://registry.npmjs.org/metascraper-publisher/-/metascraper-publisher-5.38.0.tgz"
   integrity sha512-uQ9Ah5CuuB4mv1c7ZHAdsCR8S09//GWxdjbBYex02zUFwTY0Dyf9KAh0DIhn8WAQfU3ZqO3W6pBKJLzf3rEJ1A==
   dependencies:
     "@metascraper/helpers" "^5.38.0"
 
-metascraper-title@^5.34.4:
-  version "5.37.1"
-  resolved "https://registry.npmjs.org/metascraper-title/-/metascraper-title-5.37.1.tgz"
-  integrity sha512-Ae9l9Sp6Ff1HUzta7CbxGY41qSuxk5oYimp5JMXMN7xmEg3R1Wk+2OgO9kMhzHhhIHSJRSv8WITPvkSvLWysuA==
+metascraper-title@^5.38.0:
+  version "5.38.0"
+  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.38.0.tgz#317ce793bd5e9ee4651961626fa805d643701be2"
+  integrity sha512-2pQQOQzOLQYvQIXg9EZATA0RzTr3qiP3FbGL2/NV4pfkZaJ1H7Yok6ZzXjzhMHUpmChj8M2qgi7BS+zeQRlrgg==
   dependencies:
-    "@metascraper/helpers" "^5.37.1"
+    "@metascraper/helpers" "^5.38.0"
 
 metascraper@^5.34.4:
   version "5.38.0"
